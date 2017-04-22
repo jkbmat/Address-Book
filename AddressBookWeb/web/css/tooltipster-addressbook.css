@@ -1,0 +1,12 @@
+.tooltipster-addressbook {
+	border-radius: 5px; 
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+}
+/* Use this next selector to style things like font-size and line-height: */
+.tooltipster-addressbook .tooltipster-content {
+	font-family: 'Source Sans Pro';
+	font-size: 16px;
+	line-height: 16px;
+	padding: 8px 10px;
+}

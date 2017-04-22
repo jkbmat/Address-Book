@@ -1,0 +1,257 @@
+/* 
+    Document   : style
+    Created on : Apr 22, 2014, 12:40:49 PM
+    Author     : Admin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{ 
+    font: 21px 'Source Sans Pro', sans-serif;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+h1#header
+{
+    font: 70px Roboto, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+#wrapper
+{
+    width: 1000px;
+    margin: auto;
+}
+
+#list
+{
+    list-style: none;
+    padding: 0;
+}
+
+#list li
+{
+    display: block;
+    width: 100%;
+    padding: 1em 1.5em;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    border-bottom: 3px solid black;
+    box-sizing: border-box;
+    min-height: 126px;
+}
+
+.editbutton
+{
+    border: none;
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+}
+
+#list li:hover
+{
+    background: rgba(0,0,0,0.15);
+}
+
+#list li .right
+{
+    position: absolute;
+    right: 1.5em;
+    top: 0.5em;
+    text-align: right;
+}
+
+form
+{
+    display: inline;
+}
+
+#message
+{
+    padding: 1.5em;
+    font-weight: bold;
+    background: #91ef84;
+    margin: 0;
+    border-radius: 5px;
+}
+
+input.delete
+{
+    border: none;
+    width: 16px;
+    height: 16px;
+    background: url("../img/cross.png");
+    font-size: 0px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    left: 4px;
+}
+
+input.add
+{
+    border: none;
+    width: 33px;
+    height: 33px;
+    background: url("../img/add.png");
+    font-size: 0px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+
+input.add:hover
+{
+    background-position: 0px 33px;
+}
+
+input.addc
+{
+    border: none;
+    width: 16px;
+    height: 16px;
+    background: url("../img/plus.png");
+    font-size: 0px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+
+input.editp, input.editc
+{
+    border: none;
+    width: 16px;
+    height: 16px;
+    background: url("../img/ok.png");
+    font-size: 0px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+
+h2.name
+{
+    font-size: inherit;
+    font-weight: 900;
+    font-family: 'Roboto';
+    display: inline;
+}
+
+.ckey
+{
+    font-weight: bold;
+}
+
+div#panel
+{
+    background: black url(../img/arrow.png) no-repeat;
+    background-position: center;
+    display: block;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    min-height: 20px;
+    position: relative;
+}
+
+form#adder
+{
+    padding: 1em 1.5em;
+    display: none;
+    
+}
+
+div.contacts
+{
+    font-size: 17px;
+}
+
+input[type=text]
+{
+    border-radius: 5px;
+    font: 15px 'Source Sans Pro';
+}
+
+input[type=text]::-webkit-input-placeholder
+{
+    color: rgba(0,0,0,0.9);
+}
+
+input[type=text]:-moz-placeholder
+{
+    color: rgba(0,0,0,0.9);
+}
+
+input[type=text]::-moz-placeholder
+{
+    color: rgba(0,0,0,0.9);
+}
+
+input[type=text]:-ms-input-placeholder
+{
+    color: rgba(0,0,0,0.9);
+}
+
+#adder input[type=text]::-webkit-input-placeholder
+{
+    color: rgba(255,255,255,0.9);
+}
+
+#adder input[type=text]:-moz-placeholder
+{
+    color: rgba(255,255,255,0.9);
+}
+
+#adder input[type=text]::-moz-placeholder
+{
+    color: rgba(255,255,255,0.9);
+}
+
+#adder input[type=text]:-ms-input-placeholder
+{
+    color: rgba(255,255,255,0.9);
+}
+
+form#adder input[type=text]
+{
+    border: 1px solid white;
+    background: transparent;
+    padding: 5px;
+    color: white;
+}
+
+#list li input[type=text]
+{
+    border: 1px solid black;
+    background: transparent;
+    padding: 5px;
+    color: black;
+}
+
+input[type=text]:focus
+{
+    outline: 0;
+}
+
+#list li:hover input[type=text]:focus, form#adder input[type=text]:focus
+{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+a
+{
+    color: #0099cc;
+}
